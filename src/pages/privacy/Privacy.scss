@@ -1,0 +1,34 @@
+.privacy {
+  width: 80%;
+  margin: 0 auto;
+  padding: 100px 0 100px 0;
+  font-family: "Graphik web", sans-serif;
+  display: flex;
+  flex-direction: column;
+  gap: 25px 0;
+  color: #848484;
+
+  &-title {
+    margin-top: 30px;
+  }
+  &-date {
+    font-size: 12px;
+  }
+  &-caption {
+    color: #848484;
+  }
+  &-list {
+    margin-left: 15px;
+
+    &-item {
+      list-style-type: disc;
+    }
+  }
+  &-content {
+    font-family: "Nunito Sans", sans-serif;
+    color: #848484;
+    font-size: 15px;
+    line-height: 23px;
+    font-weight: 300;
+  }
+}

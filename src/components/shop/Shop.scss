@@ -1,0 +1,164 @@
+.product {
+  width: 65%;
+  height: 100vh;
+  margin: 0 auto;
+  display: flex;
+  align-items: center;
+  padding: 100px 80px 100px 80px;
+  gap: 0 100px;
+
+  &-image {
+    width: 100%;
+    // min-width: 200px;
+    // object-fit: contain;
+  }
+
+  &-c {
+    padding: 100px 0;
+    min-width: 300px;
+
+    .slider-dot {
+      width: 40px;
+      height: 5px;
+      background-color: black;
+      margin: 0 auto;
+      margin-top: 40px;
+      cursor: pointer;
+    }
+  }
+
+  &-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    gap: 40px;
+    padding-left: 100px;
+    padding-bottom: 100px;
+
+    &-title {
+      font-size: 50px;
+      color: #848484;
+    }
+    &-desc {
+      font-size: 18px;
+      color: #252525;
+    }
+    &-price {
+      font-size: 30px;
+      font-weight: 900;
+    }
+    &-list {
+      display: flex;
+      flex-direction: column;
+      gap: 20px;
+      &-item {
+        display: flex;
+        gap: 10px;
+        align-items: center;
+        font-size: 12px;
+        color: #848484;
+      }
+    }
+  }
+}
+
+.features {
+  border-top: 2px solid #e5e5e5;
+  width: 80%;
+  margin: 0 auto;
+  padding: 100px 15px;
+  position: relative;
+  &-container {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 50px 0;
+    width: 70%;
+  }
+  &-img {
+    width: 600px;
+    position: absolute;
+    right: 0;
+    top: auto;
+    bottom: 0;
+  }
+}
+
+.difference {
+  background: #19191d;
+  padding: 100px;
+
+  &-title {
+    color: #ff896c;
+    font-size: 50px;
+    text-align: center;
+  }
+  &-container {
+    padding: 100px;
+    display: flex;
+    gap: 50px;
+    justify-content: space-between;
+    div {
+      div {
+        cursor: pointer !important;
+      }
+    }
+  }
+}
+
+.specs {
+  width: 75%;
+  margin: 0 auto;
+  padding: 100px 0;
+  font-family: "Graphik web", sans-serif;
+  &-title {
+    margin-bottom: 40px;
+    color: #19191d;
+    font-size: 30px;
+    line-height: 30px;
+    font-weight: 500;
+  }
+  &-container {
+    display: flex;
+    gap: 0 50px;
+    .p-50 {
+      padding-bottom: 50px;
+    }
+    &-block {
+      display: flex;
+      flex-direction: column;
+      gap: 30px 0;
+
+      &-content {
+        color: #848484;
+        display: flex;
+        flex-direction: column;
+
+        &-title {
+          color: #19191d;
+          font-weight: 500;
+          padding-bottom: 10px;
+        }
+        &-desc {
+          color: #848484;
+        }
+      }
+    }
+  }
+}
+
+.included {
+  width: 75%;
+  margin: 0 auto;
+  font-family: "Graphik web", sans-serif;
+  padding: 100px 0;
+  &-title {
+    margin-bottom: 40px;
+    color: #19191d;
+    font-size: 30px;
+    font-weight: 500;
+  }
+  &-container {
+    display: flex;
+    gap: 0 50px;
+  }
+}

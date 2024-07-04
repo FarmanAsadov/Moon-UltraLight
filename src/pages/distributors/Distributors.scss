@@ -1,0 +1,16 @@
+.distributor {
+  width: 80%;
+  height: 57vh;
+  margin: 0 auto;
+  padding: 100px 0;
+  display: flex;
+  flex-direction: column;
+  gap: 50px;
+  color: #848484;
+  &-title {
+    padding-top: 100px;
+  }
+  &-content {
+    padding-bottom: 100px;
+  }
+}

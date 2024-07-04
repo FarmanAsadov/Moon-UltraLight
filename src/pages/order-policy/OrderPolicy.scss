@@ -1,0 +1,18 @@
+.order-policy {
+  width: 80%;
+  margin: 0 auto;
+  padding: 100px 0 100px 0;
+  font-family: "Graphik web", sans-serif;
+  color: #848484;
+  &-title {
+    margin-bottom: 40px;
+    margin-top: 60px;
+  }
+  &-content {
+    font-family: "Nunito Sans", sans-serif;
+    font-size: 15px;
+    line-height: 25px;
+    font-weight: 300;
+    padding-bottom: 70px;
+  }
+}

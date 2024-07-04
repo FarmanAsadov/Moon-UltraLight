@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="40px" height="40px" viewBox="0 0 40 40" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 57.1 (83088) - https://sketch.com -->
+    <title>Group 5</title>
+    <desc>Created with Sketch.</desc>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Artboard-Copy-17" transform="translate(-180.000000, -9546.000000)">
+            <g id="Group-5" transform="translate(181.000000, 9547.000000)">
+                <path id="Line-2" d="M15.374839,11.7597388 C15.6456028,11.2783809 16.2553179,11.1076607 16.7366758,11.3784245 L16.7366758,11.3784245 L30.2861434,19 L16.7366758,26.6215755 C16.2553179,26.8923393 15.6456028,26.7216191 15.374839,26.2402612 C15.1040752,25.7589034 15.2747954,25.1491883 15.7561533,24.8784245 L15.7561533,24.8784245 L24.428,20 L10,20 C9.48716416,20 9.06449284,19.6139598 9.00672773,19.1166211 L9,19 C9,18.4477153 9.44771525,18 10,18 L10,18 L24.428,18 L15.7561533,13.1215755 C15.3091781,12.870152 15.1300487,12.3264695 15.3235279,11.8646812 Z" fill="#F4EFEA" fill-rule="nonzero"></path>
+                <circle id="Oval" stroke="#F4EFEA" stroke-width="2" cx="19" cy="19" r="19"></circle>
+            </g>
+        </g>
+    </g>
+</svg>

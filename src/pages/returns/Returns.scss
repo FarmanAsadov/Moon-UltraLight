@@ -1,0 +1,22 @@
+.returns {
+  width: 80%;
+  margin: 0 auto;
+  padding: 100px 0;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  color: #848484;
+
+  .b {
+    font-family: "Graphik web", sans-serif;
+  }
+  &-content {
+    &:last-child {
+      padding-bottom: 21px;
+    }
+  }
+  &-title {
+    margin-bottom: 30px;
+    margin-top: 100px;
+  }
+}

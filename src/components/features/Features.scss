@@ -1,0 +1,22 @@
+.block {
+  display: flex;
+  align-items: center;
+  gap: 40px;
+  width: 380px;
+  &-img {
+    width: 25px;
+  }
+  &-content {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    &-title {
+      font-size: 18px;
+      color: #252525;
+    }
+    &-text {
+      font-size: 16px;
+      color: #848484;
+    }
+  }
+}

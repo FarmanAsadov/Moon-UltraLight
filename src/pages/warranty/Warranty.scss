@@ -1,0 +1,33 @@
+.warranty {
+  width: 80%;
+  margin: 0 auto;
+  padding: 100px 0 100px 0;
+  font-family: "Graphik web", sans-serif;
+  display: flex;
+  flex-direction: column;
+  gap: 25px 0;
+  color: #848484;
+  &-title {
+    margin-bottom: 10px;
+    margin-top: 30px;
+  }
+  &-list {
+    margin-left: 15px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    &-item {
+      list-style-type: numeric;
+    }
+  }
+  &-content {
+    font-family: "Nunito Sans", sans-serif;
+    font-size: 15px;
+    line-height: 23px;
+    font-weight: 300;
+
+    &-title {
+      font-weight: bold;
+    }
+  }
+}

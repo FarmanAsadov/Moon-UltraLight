@@ -1,0 +1,51 @@
+export const adress = [
+  {
+    id: 1,
+    state: "New York, NY",
+    adressFirst: "Hudson Yards",
+    adressSecond: "20 Hudson Yards",
+    adressThirth: "New York, NY 10001",
+  },
+  {
+    id: 2,
+    state: "New York, NY",
+    adressFirst: "Macy’s Harald Square",
+    adressSecond: "151 West 34th Street",
+    adressThirth: "New York, NY 10001",
+  },
+  {
+    id: 3,
+    state: "Boston, MA",
+    adressFirst: "Seaport District",
+    adressSecond: "Coming",
+    adressThirth: "Soon",
+  },
+  {
+    id: 4,
+    state: "Austin, TX",
+    adressFirst: "Domain Northside",
+    adressSecond: "11701 Domain Blvd",
+    adressThirth: "Suite 174, Austin, TX 78758",
+  },
+  {
+    id: 5,
+    state: "Houston, TX",
+    adressFirst: "The Galleria",
+    adressSecond: "5115 Westheimer Road",
+    adressThirth: "Houston, TX 77056",
+  },
+  {
+    id: 6,
+    state: "San Jose, CA",
+    adressFirst: "Santana Row",
+    adressSecond: "333 Santana Row, Suite 1115,",
+    adressThirth: "San Jose, CA 95128",
+  },
+  {
+    id: 7,
+    state: "San Jose, CA",
+    adressFirst: "Santa Monica Place",
+    adressSecond: "395 Santa Monica Place",
+    adressThirth: "Level Two, Santa Monica, CA 90401",
+  },
+];
